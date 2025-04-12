@@ -6,9 +6,6 @@
 
 # Zaphy
 Zaphy is an ultra lightweight module loader for Roblox Luau.
-<a href="https://discord.gg/mhtGUS8">
-      <img src="https://img.shields.io/discord/1344795654656102400?color=5865F2&label=discord&logo=discord&logoColor=white" alt="Discord" />
-</a>
 
 </div>
 
