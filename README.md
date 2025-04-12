@@ -19,4 +19,4 @@ Zaphy is **extremely lightweight**, and contains useful functions for making bac
 
 2. Drag and drop the file into your Roblox Studio explorer.
 
-## Uploading tutorial video for set-up, please wait!
+3. Follow the next instructions in the README file inside the folder.
