@@ -19,7 +19,7 @@ Zaphy is an ultra lightweight module loader for Roblox Luau.
 > Rojo is not yet supported.
 
 # Why Zaphy?
-Zaphy is **extremely lightweight**, and contains useful functions for making backend a frontend communication easy. Zaphy has been used in all projects from **[Froststar Interactive](https://www.roblox.com/communities/35123256)**.
+Zaphy contains useful functions for making backend a frontend communication easy. Zaphy has been used in all projects from **[Froststar Interactive](https://www.roblox.com/communities/35123256)**.
 
 # Install by drag-and-drop
 **Zaphy** can be easily installed into your project, here's how to do so.
