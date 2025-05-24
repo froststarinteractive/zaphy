@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://www.roblox.com/communities/35123256">
-  <img src = "https://github.com/froststarinteractive/zaphy/blob/master/Icon256.png?raw=true" alt="Icon" />
+  <img src="https://github.com/froststarinteractive/zaphy/blob/97ffb60766a2f2240fec6e4820447915f3a163b1/Icon256.png" alt="Icon" />
 </a>
 
 # Zaphy
