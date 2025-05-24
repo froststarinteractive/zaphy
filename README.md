@@ -28,5 +28,11 @@ Zaphy contains useful functions for making backend a frontend communication easy
 
 3. Ungroup all the folders inside the named services.
 
+## Install via Demo Place
+
+1. Download our [**latest release**](https://github.com/froststarinteractive/zaphy/releases) for **Zaphy**, specifically the DemoPlace.rbxl.
+   
+2. Open the Demo Place
+
 > [!NOTE]
 > Rojo is not yet supported.
