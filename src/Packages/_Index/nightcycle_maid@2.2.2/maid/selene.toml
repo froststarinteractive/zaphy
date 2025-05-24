@@ -1,0 +1,15 @@
+std = "lints/luau+roblox"
+exclude = [
+	"*.spec.lua",
+	"*.spec.luau",  
+	"*.remodel.lua", 
+	"*.rbxmk.lua",
+	"*.d.lua",
+	"*.story.lua",
+	"*.story.luau",
+	"scripts/*", 
+]
+[lints]
+unused_variable = "allow"
+empty_if = "allow"
+if_same_then_else = "allow"

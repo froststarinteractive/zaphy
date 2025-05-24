@@ -1,0 +1,14 @@
+{
+    "cSpell.words": [
+        "Aftman",
+        "johnnymorganz",
+        "kampfkarren",
+        "nightcycle",
+        "stylua",
+        "upliftgames"
+    ],
+
+    "[luau]": {
+        "editor.defaultFormatter": "JohnnyMorganz.stylua"
+    },
+}

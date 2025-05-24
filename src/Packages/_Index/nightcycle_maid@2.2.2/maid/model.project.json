@@ -1,0 +1,12 @@
+{
+	"name": "maid",
+	"tree": {
+		"$className": "Folder",
+		"Wally": {
+			"$className": "Folder",
+			"Main": {
+				"$path": "src"
+			}
+		}
+	}
+}

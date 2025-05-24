@@ -1,0 +1,11 @@
+[package]
+name = "quenty/loader"
+description = "A simple module loader for Roblox."
+version = "3.1.1-canary.140ed9d6.4"
+license = "MIT"
+authors = ["James Onnen"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+# None!

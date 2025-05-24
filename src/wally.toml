@@ -1,0 +1,13 @@
+[package]
+name = "ivadsiuls/zaphy"
+description = "Zaphy is a easy-to-use game framework"
+license = "MIT"
+version = "2.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Net = "sleitnick/net@0.2.0"
+Promise = "quenty/promise@3.1.2"
+Maid = "nightcycle/maid@2.2.2"
+Signal = "sleitnick/signal@2.0.3"

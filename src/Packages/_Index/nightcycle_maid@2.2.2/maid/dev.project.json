@@ -1,0 +1,11 @@
+{
+  "name": "maid",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"package": {
+				"$path": "model.project.json"
+			}
+		}
+	}
+}

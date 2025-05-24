@@ -1,0 +1,8 @@
+[package]
+name = "nightcycle/maid"
+description = "typed port of Quenty's maid class"
+version = "2.2.2"
+authors = ["CJ Oyer <coyer@nightcycle.us>"]
+realm = "shared"
+registry = "https://github.com/upliftgames/wally-index"
+exclude = ["Packages", ".vscode"]
