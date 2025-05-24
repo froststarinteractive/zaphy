@@ -20,19 +20,14 @@ Zaphy contains useful functions for making backend a frontend communication easy
 
 3. Ungroup all the folders inside the named services.
 
-## Install via Roblox Model
+## Install via Wally
 
-1. Download the [**Zaphy Roblox Model**](https://create.roblox.com/store/asset/132885069360180/)
+Simply go to your wally.toml file and add:
+```toml
+zaphy = "ivadsiuls/zaphy@2.1.0"
+```
 
-2. Go to your tool box and drag and drop the model into your workspace
 
-3. Ungroup all the folders inside the named services.
-
-## Install via Demo Place
-
-1. Download our [**latest release**](https://github.com/froststarinteractive/zaphy/releases) for **Zaphy**, specifically the DemoPlace.rbxl.
-   
-2. Open the Demo Place
 
 > [!NOTE]
-> Rojo is not yet supported.
+> Zaphy's wally package will always be "ivadsiuls/zaphy@x.x.x"
