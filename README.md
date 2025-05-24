@@ -9,23 +9,24 @@ Zaphy is an ultra lightweight module loader for Roblox Luau.
 
 </div>
 
-> [!NOTE]
-> This version of Zaphy may be outdated, since the latest version is inside **[Froststar Interactive](https://www.roblox.com/communities/35123256)**'s games. Some features may also be private so exploiters don't fully know what's going on internally.
-
-> [!WARNING]
-> Zaphy is in an EXPERIMENTAL stage, use in large projects at your own risk.
-
-> [!NOTE]
-> Rojo is not yet supported.
-
 # Why Zaphy?
 Zaphy contains useful functions for making backend a frontend communication easy. Zaphy has been used in all projects from **[Froststar Interactive](https://www.roblox.com/communities/35123256)**.
 
-# Install by drag-and-drop
-**Zaphy** can be easily installed into your project, here's how to do so.
+## Install via Latest Release
 
 1. Download our [**latest release**](https://github.com/froststarinteractive/zaphy/releases) for **Zaphy**.
 
 2. Drag and drop the file into your Roblox Studio explorer.
 
-3. Follow the next instructions in the README file inside the folder.
+3. Ungroup all the folders inside the named services.
+
+## Install via Roblox Model
+
+1. Download the [**Zaphy Roblox Model**](https://create.roblox.com/store/asset/132885069360180/)
+
+2. Go to your tool box and drag and drop the model into your workspace
+
+3. Ungroup all the folders inside the named services.
+
+> [!NOTE]
+> Rojo is not yet supported.
