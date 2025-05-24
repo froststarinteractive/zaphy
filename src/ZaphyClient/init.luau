@@ -12,7 +12,6 @@ local loader = {
 	debugEnabled = false,
 	
 	Util = {
-		Promise = require(Packages:FindFirstChild("Promise")),
 		Signal = require(Packages:FindFirstChild("Signal")),
 		Maid = require(Packages:FindFirstChild("Maid")),
 	}
