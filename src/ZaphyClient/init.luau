@@ -4,7 +4,7 @@
 	The client part of Zaphy.
 ]=]
 
-local Packages = ( script.Parent :: Instance ):FindFirstChild("Packages")
+local Packages = ( script.Parent :: Instance ).Parent
 
 local Net = require(Packages:FindFirstChild("Net"))
 
