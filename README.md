@@ -10,7 +10,7 @@ Zaphy is an ultra lightweight game framework for Roblox.
 </div>
 
 # Why Zaphy?
-Zaphy contains useful functions for making backend a frontend communication easy. Zaphy has been used in all projects from **[Froststar Interactive](https://www.roblox.com/communities/35123256)**.
+Zaphy contains useful functions for making backend to frontend communication easy. Zaphy has been used in all projects from **[Froststar Interactive](https://www.roblox.com/communities/35123256)**.
 
 Read full documentation at:
 **https://froststarinteractive.github.io/zaphy/**
