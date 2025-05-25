@@ -20,7 +20,7 @@ Zaphy is very simplistic and is intended to only give 3 features out-of-the-box:
 To install Zaphy, download the Wally package via:
 
 ```toml
-Zaphy = "ivadsiuls/zaphy@2.1.4"
+Zaphy = "ivadsiuls/zaphy@2.1.5"
 ```
 
 Run *wally install* to install **Zaphy** into your project
