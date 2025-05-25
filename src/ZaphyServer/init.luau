@@ -110,4 +110,10 @@ function loader:ListenAskFromClient(RemoteName: string, Callback: () -> ())
 	end)
 end
 
+function loader:ListenUnreliableAskFromClient(RemoteName: string, Callback: () -> ())
+	return Net:UnreliableRemoteEvent(RemoteName).OnServerEvent:Connect(function(...)
+		Callback(...)
+	end)
+end
+
 return loader

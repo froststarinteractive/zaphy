@@ -1,0 +1,4 @@
+site_name: Zaphy
+nav:
+  - Home: index.md
+  - API: api.md

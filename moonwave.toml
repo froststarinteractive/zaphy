@@ -1,5 +1,0 @@
-title = "Zaphy"
-
-[[classOrder]]
-section = "Server"
-classes = "ZaphyServer"
