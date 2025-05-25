@@ -1,4 +1,4 @@
-# **----- Zaphy Server -----**
+# **───── Zaphy Server ─────**
 
 --------------------------
 
@@ -146,7 +146,7 @@ function Zaphy:ListenUnreliableAskFromClient(
 ```
 
 --------------------------
-# **----- Zaphy Client -----**
+# **───── Zaphy Client ─────**
 
 --------------------------
 

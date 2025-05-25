@@ -1,4 +1,10 @@
-# Zaphy Framework
+<div align="center">
+<img src="./img/favicon.ico" alt="Icon"/>
+<h1>Zaphy Framework</h1>
+</div>
+
+-------------------------------------------------------
+
 **Zaphy** is a game framework for Roblox making it easy and fast to create games.
 
 Zaphy is very simplistic and is intended to only give 3 features out-of-the-box:
@@ -6,6 +12,8 @@ Zaphy is very simplistic and is intended to only give 3 features out-of-the-box:
 - A simple module loader
 - Extremely easy server-client communication functions
 - Pre-bundled utility modules
+
+-------------------------------------------------------
 
 ## Installation
 
@@ -20,6 +28,8 @@ Run *wally install* to install **Zaphy** into your project
 ```powershell
 wally install
 ```
+
+-------------------------------------------------------
 
 ## Setting up your project
 
@@ -81,6 +91,8 @@ Your *project.json* file should look something like this:
 }
 ```
 
+-------------------------------------------------------
+
 ## Starting Zaphy
 
 To start **Zaphy**, create a script in your Server Scripts directory, and require Zaphy:
@@ -93,6 +105,8 @@ local Packages = ReplicatedStorage:FindFirstChild("Packages")
 local Zaphy = require(Packages["Zaphy"])
 ```
 
+-------------------------------------------------------
+
 ### Client
 
 To add your **Controllers** to Zaphy, use Zaphy:AddControllers:
@@ -102,6 +116,8 @@ local Controllers = script.Parent.Parent:FindFirstChild("Client").Controllers:Ge
 
 Zaphy:AddControllers(Controllers)
 ```
+
+-------------------------------------------------------
 
 ### Server
 
