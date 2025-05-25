@@ -5,7 +5,7 @@
 </a>
 
 # Zaphy
-Zaphy is an ultra lightweight module loader for Roblox Luau.
+Zaphy is an ultra lightweight game framework for Roblox.
 
 </div>
 
