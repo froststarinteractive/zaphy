@@ -12,22 +12,5 @@ Zaphy is an ultra lightweight module loader for Roblox Luau.
 # Why Zaphy?
 Zaphy contains useful functions for making backend a frontend communication easy. Zaphy has been used in all projects from **[Froststar Interactive](https://www.roblox.com/communities/35123256)**.
 
-## Install via Latest Release
-
-1. Download our [**latest release**](https://github.com/froststarinteractive/zaphy/releases) for **Zaphy**.
-
-2. Drag and drop the file into your Roblox Studio explorer.
-
-3. Ungroup all the folders inside the named services.
-
-## Install via Wally
-
-Simply go to your wally.toml file and add:
-```toml
-zaphy = "ivadsiuls/zaphy@2.1.0"
-```
-
-
-
-> [!NOTE]
-> Zaphy's wally package will always be "ivadsiuls/zaphy@x.x.x"
+Read full documentation at:
+**https://froststarinteractive.github.io/zaphy/**
