@@ -247,13 +247,13 @@ note { color: rgba(95, 164, 255, 0.63) }
 </code></pre>
 <h2 id="getservices">GetServices</h2>
 <p>Gets all Zaphy Services.</p>
-<pre><code class="language-lua">function Zaphy:GetServices()
+<pre><code class="language-lua">function Zaphy:GetServices(): {Service}
 </code></pre>
 <h2 id="getservice">GetService</h2>
 <p>Get a service initiated by Zaphy. Returns nil if the service does not exist/wasn't loaded.</p>
 <pre><code class="language-lua">function Zaphy:GetService(
     ServiceName: string
-)
+): Service
 </code></pre>
 <h2 id="tellclient">TellClient</h2>
 <p>Tell the Client to do something.</p>
@@ -341,13 +341,13 @@ note { color: rgba(95, 164, 255, 0.63) }
 </code></pre>
 <h2 id="getcontrollers">GetControllers</h2>
 <p>Gets all Zaphy Controllers.</p>
-<pre><code class="language-lua">function Zaphy:GetControllers()
+<pre><code class="language-lua">function Zaphy:GetControllers(): {Controller}
 </code></pre>
 <h2 id="getcontroller">GetController</h2>
 <p>Get a controller initiated by Zaphy. Returns nil if the controller does not exist/wasn't loaded.</p>
 <pre><code class="language-lua">function Zaphy:GetController(
     ControllerName: string
-)
+): Controller
 </code></pre>
 <h2 id="askserver">AskServer</h2>
 <p>Ask the server to do something.</p>

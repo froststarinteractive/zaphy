@@ -1,6 +1,15 @@
 <div align="center">
 <img src="./img/favicon.ico" alt="Icon"/>
-<h1>Zaphy Framework</h1>
+<h1><b>Zaphy Framework</b></h1>
+
+<img alt="GitHub Issues" src="https://img.shields.io/github/issues/froststarinteractive/zaphy" />
+
+<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/froststarinteractive/zaphy" />
+
+<img alt="Github License" src="https://img.shields.io/github/license/froststarinteractive/zaphy" />
+
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/froststarinteractive/zaphy" />
+
 </div>
 
 -------------------------------------------------------
@@ -20,7 +29,7 @@ Zaphy is very simplistic and is intended to only give 3 features out-of-the-box:
 To install Zaphy, download the Wally package via:
 
 ```toml
-Zaphy = "ivadsiuls/zaphy@2.1.5"
+Zaphy = "ivadsiuls/zaphy@2.1.6"
 ```
 
 Run *wally install* to install **Zaphy** into your project

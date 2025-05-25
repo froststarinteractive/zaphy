@@ -1,8 +1,13 @@
 [package]
 name = "ivadsiuls/zaphy"
-description = "Zaphy is a easy-to-use game framework."
+description = """
+Zaphy is a easy-to-use game framework.
+
+Full documentation at:
+https://froststarinteractive.github.io/zaphy/
+"""
 license = "MIT"
-version = "2.1.5"
+version = "2.1.6"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 

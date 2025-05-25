@@ -62,7 +62,7 @@ function Zaphy:StartZaphy()
 Gets all Zaphy Services.
 
 ```lua
-function Zaphy:GetServices()
+function Zaphy:GetServices(): {Service}
 ```
 
 ## GetService
@@ -72,7 +72,7 @@ Get a service initiated by Zaphy. Returns nil if the service does not exist/wasn
 ```lua
 function Zaphy:GetService(
     ServiceName: string
-)
+): Service
 ```
 
 ## TellClient
@@ -210,7 +210,7 @@ function Zaphy:StartZaphy()
 Gets all Zaphy Controllers.
 
 ```lua
-function Zaphy:GetControllers()
+function Zaphy:GetControllers(): {Controller}
 ```
 
 ## GetController
@@ -220,7 +220,7 @@ Get a controller initiated by Zaphy. Returns nil if the controller does not exis
 ```lua
 function Zaphy:GetController(
     ControllerName: string
-)
+): Controller
 ```
 
 ## AskServer
