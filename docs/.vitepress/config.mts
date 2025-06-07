@@ -10,8 +10,6 @@ export default defineConfig({
 	cleanUrls: true,
 	lang: 'en-US',
 
-  base: "/zaphy/",
-
   vite: {
         ssr: {
             noExternal: [
