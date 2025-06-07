@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.17.2",
+    "esbuild": "^0.25.5",
     "vitepress-plugin-tabs": "^0.7.1",
     "vitepress-theme-api": "^0.1.7"
   }
