@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../node_modules/vitepress-theme-api/dist/vitepress-theme-api.es.js"],
+  "sourcesContent": ["import { defineComponent as i, openBlock as r, createElementBlock as c, createElementVNode as o, renderSlot as s, normalizeStyle as l } from \"vue\";\nconst p = { class: \"container-content\" }, a = { class: \"left\" }, _ = /* @__PURE__ */ i({\n  __name: \"DividePage\",\n  props: {\n    top: {}\n  },\n  setup(n) {\n    const e = n;\n    return (t, d) => (r(), c(\"div\", p, [\n      o(\"div\", a, [\n        s(t.$slots, \"left\")\n      ]),\n      o(\"div\", {\n        class: \"right\",\n        style: l({ top: e.top ? `${e.top}px` : \"0px\" })\n      }, [\n        s(t.$slots, \"right\")\n      ], 4)\n    ]));\n  }\n});\nexport {\n  _ as DividePage\n};\n"],
+  "mappings": ";;;;;;;;;;AACA,IAAM,IAAI,EAAE,OAAO,oBAAoB;AAAvC,IAA0C,IAAI,EAAE,OAAO,OAAO;AAA9D,IAAiE,IAAoB,gBAAE;AAAA,EACrF,QAAQ;AAAA,EACR,OAAO;AAAA,IACL,KAAK,CAAC;AAAA,EACR;AAAA,EACA,MAAM,GAAG;AACP,UAAM,IAAI;AACV,WAAO,CAAC,GAAG,OAAO,UAAE,GAAG,mBAAE,OAAO,GAAG;AAAA,MACjC,gBAAE,OAAO,GAAG;AAAA,QACV,WAAE,EAAE,QAAQ,MAAM;AAAA,MACpB,CAAC;AAAA,MACD,gBAAE,OAAO;AAAA,QACP,OAAO;AAAA,QACP,OAAO,eAAE,EAAE,KAAK,EAAE,MAAM,GAAG,EAAE,GAAG,OAAO,MAAM,CAAC;AAAA,MAChD,GAAG;AAAA,QACD,WAAE,EAAE,QAAQ,OAAO;AAAA,MACrB,GAAG,CAAC;AAAA,IACN,CAAC;AAAA,EACH;AACF,CAAC;",
+  "names": []
+}

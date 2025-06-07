@@ -1,14 +1,29 @@
 {
     "cSpell.words": [
         "Aftman",
+        "catppuccin",
         "johnnymorganz",
         "kampfkarren",
         "nightcycle",
+        "Pesde",
         "stylua",
-        "upliftgames"
+        "upliftgames",
+        "vitepress"
     ],
 
     "[luau]": {
         "editor.defaultFormatter": "JohnnyMorganz.stylua"
+    },
+    
+    "[lua]": {
+        "editor.defaultFormatter": "JohnnyMorganz.stylua"
+    },
+
+    "[ts]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[mts]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
 }
