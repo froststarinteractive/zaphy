@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Zaphy - Docs"
+  name: "Zaphy"
   text: "Zaphy is a game framework for Roblox."
   tagline: Making games <u>shouldn't</u> be <i>hard</i>.
   image:

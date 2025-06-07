@@ -7,7 +7,8 @@ import {
 } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 import "./style.css";
-import './vars.css';
+import "./vars.css";
+import "./custom.css"
 
 export default {
   extends: DefaultTheme,

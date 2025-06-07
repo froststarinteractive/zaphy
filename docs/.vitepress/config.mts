@@ -6,6 +6,8 @@ export default defineConfig({
   title: "Zaphy",
   description: "Roblox game framework",
 
+  titleTemplate: ":title | Docs",
+
   lastUpdated: true,
 	cleanUrls: true,
 	lang: 'en-US',

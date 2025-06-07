@@ -1,0 +1,21 @@
+/**
+ * Component: Name
+ * -------------------------------------------------------------------------- */
+
+ span.name.clip {
+  font-size: 5rem;
+
+  align-content: center;
+
+  height: 100px;
+ }
+
+/**
+ * Component: Box
+ * -------------------------------------------------------------------------- */
+
+ .box {
+  background-color: var(--vp-c-box-bg);
+  border-radius: 5px;
+  border-style: none;
+ }
