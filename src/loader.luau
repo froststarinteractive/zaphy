@@ -1,12 +1,12 @@
--- Hermes MODULE LOADER (v0.1.0)
+-- Hermes MODULE LOADER (v0.2.0)
 
 --[[
     LOADER EXECUTION MODEL
 
-    loader:Add
+    loader:Register
         Add all the modules to the cache
 
-    loader:Zap
+    loader:Fly
         Loop through all the modules in the _modules cache
             Require it
             Add the .Server/.Client to it
@@ -54,7 +54,7 @@ export type ProviderClient = Provider & {
 	PreSimulation: (ProviderClient) -> ()?,
 }
 
--- Register a table of ModuleScripts to the Hermes module cache to be loaded when :Zap is called.
+-- Register a table of ModuleScripts to the Hermes module cache to be loaded when :Fly is called.
 function loader.Register(self: loader, modules: { ModuleScript })
 	for _, module in modules do
 		if not table.find(self._modules, module) then
@@ -83,6 +83,10 @@ function loader.Fly(self: loader)
     ]]
 	for _, module in self._modules :: { ModuleScript } do
 		local prov = require(module)
+
+		assert(prov.Name,`[Hermes] Provider from module "{module.Name}" does not have a 'Name' index!`)
+		-- or
+		-- if not prov.Name then warn(`[Hermes] Provider from module "{Module.Name}" does not have a 'Name' index, setting to Module name`) prov.Name = module.Name end
 
 		if self._providers[prov.Name] then
 			warn("There is already a provider with the same name! Provider names MUST be unique.")
